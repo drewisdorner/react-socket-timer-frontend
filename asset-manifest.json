@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-socket-timer-frontend/static/css/main.7c421f3c.chunk.css",
+    "main.js": "/react-socket-timer-frontend/static/js/main.ba87929a.chunk.js",
+    "main.js.map": "/react-socket-timer-frontend/static/js/main.ba87929a.chunk.js.map",
+    "runtime-main.js": "/react-socket-timer-frontend/static/js/runtime-main.5f650eff.js",
+    "runtime-main.js.map": "/react-socket-timer-frontend/static/js/runtime-main.5f650eff.js.map",
+    "static/js/2.2ba0672a.chunk.js": "/react-socket-timer-frontend/static/js/2.2ba0672a.chunk.js",
+    "static/js/2.2ba0672a.chunk.js.map": "/react-socket-timer-frontend/static/js/2.2ba0672a.chunk.js.map",
+    "index.html": "/react-socket-timer-frontend/index.html",
+    "precache-manifest.4755befefb8a20493efef938bc55ecc8.js": "/react-socket-timer-frontend/precache-manifest.4755befefb8a20493efef938bc55ecc8.js",
+    "service-worker.js": "/react-socket-timer-frontend/service-worker.js",
+    "static/css/main.7c421f3c.chunk.css.map": "/react-socket-timer-frontend/static/css/main.7c421f3c.chunk.css.map",
+    "static/js/2.2ba0672a.chunk.js.LICENSE.txt": "/react-socket-timer-frontend/static/js/2.2ba0672a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f650eff.js",
+    "static/js/2.2ba0672a.chunk.js",
+    "static/css/main.7c421f3c.chunk.css",
+    "static/js/main.ba87929a.chunk.js"
+  ]
+}
