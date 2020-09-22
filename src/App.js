@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import socketIOClient from 'socket.io-client';
 import './App.css';
+const ENDPOINT = "https://react-socket-time.herokuapp.com/";
 
 function App() {
+  const [response, setResponse] = useState("");
+
+  useEffect(() => {
+    const socket = socketIOClient(ENDPOINT);
+    socket.on("FromAPI", data => {
+      setResponse(data);
+    })
+  }, []);
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>React Time</h1>
+        <p>The current time is:</p>
+        <code><time dateTime={response}>{response}</time></code>
       </header>
     </div>
   );
 }
+
 
 export default App;
